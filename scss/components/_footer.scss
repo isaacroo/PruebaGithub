@@ -1,0 +1,9 @@
+.footer {
+    text-align: center;
+    transition: all 2s;
+    
+    &:hover {
+        background-color: map-get($maps, footer);
+    }
+
+}

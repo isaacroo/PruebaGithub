@@ -1,0 +1,15 @@
+/* general */
+
+/*cuerpo index */ 
+.cuerpo-index {
+    background-color: map-get($maps, central-body);
+    border-top: map-get($maps, bordes-central);
+    border-bottom: map-get($maps, bordes-central);
+}
+
+/*body el viaje */ 
+.cuerpo-elviaje {
+    background-color: map-get($maps, central-body);
+    border-top: map-get($maps, bordes-central);
+    border-bottom: map-get($maps, bordes-central);
+}

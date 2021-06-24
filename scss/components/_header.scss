@@ -1,0 +1,15 @@
+.header {
+    font-style: $style-font-header;
+    font-weight: bold;
+
+    .texto-header {
+        font-weight: lighter;
+
+        a {
+            &:hover {
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
